@@ -11,7 +11,7 @@ using Serilog.Sinks.MSSqlServer;
 using static Serilog.Sinks.MSSqlServer.ColumnOptions;
 var builder = WebApplication.CreateBuilder(args);
 // Register IHttpContextAccessor :: Add Http Context Accessor
-// Test comment for git hub 2
+// Test comment for git hub 2020
 
 builder.Services.AddHttpContextAccessor();
 // Add services to the container.
